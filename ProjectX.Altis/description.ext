@@ -1,0 +1,26 @@
+#include "Functions.hpp"
+#include "Sounds.hpp"
+#include "Dialogs\Dialogs.hpp"
+#include "RscTitles.hpp"
+
+enableDebugConsole = 1;
+
+respawn = "BASE";
+disabledAI = 1;
+author = "Equipe RLP";
+onLoadName = "RLP v2.0";
+onLoadMission = "Real Life Project";
+respawndelay = 0.1;
+respawnDialog = 0;
+loadScreen = "";
+
+wreckLimit = 5;
+wreckRemovalMaxTime = 300;
+wreckRemovalMinTime = 120;
+
+class Header
+{
+	gameType = RPG;
+	minPlayers = 1;
+	maxPlayers = 100;
+};
